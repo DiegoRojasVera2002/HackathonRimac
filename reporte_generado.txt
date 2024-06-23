@@ -1,0 +1,4 @@
+Alerta de Emergencia Médica
+Ubicación: AV. GENERAL CESAR CANEVARO  900  - LINCE, Fecha y hora: 2021-07-09 18:28:57
+Si quieres saber más.
+http://127.0.0.1:5500/reporte_generado.html
