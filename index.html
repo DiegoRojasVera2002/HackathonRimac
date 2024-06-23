@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Interactivo con Google Maps</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Mapa Interactivo de Ubicaciones</h1>
+        </header>
+        <main>
+            <div id="map"></div>
+            <button onclick="addNewLocation(-12.0295378, -77.0599784)">Agregar Nueva Ubicación</button>
+        </main>
+    </div>
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDl4YDAOuhZT4IjMaa-aHpnDsoA8qkbNZY&callback=initMap"
+            async defer></script>
+    <script src="script.js"></script>
+</body>
+</html>
+
